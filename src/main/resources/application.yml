@@ -1,0 +1,18 @@
+#app:
+#  datasource:
+#    jdbc-url: jdbc:postgresql://localhost:5432/ecommerceDB
+#    username: postgres
+#    password: jihan
+#    pool-size: 30
+
+#railway
+app:
+  datasource:
+    jdbc-url: jdbc:postgresql://containers-us-west-39.railway.app:7839/railway
+    username: postgres
+    password: 6YQcNg0JXVg1oWeQFfk5
+    pool-size: 30
+
+spring:
+  jpa:
+    open-in-view: false
